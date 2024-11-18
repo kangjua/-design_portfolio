@@ -966,4 +966,15 @@ aside > ul > li:hover > a{
 footer{
     height: 100vh;
     background-image: url(../image/footer.png);
+    position: relative;
+}
+footer ul{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    text-align: right;
+}
+footer ul > li{
+    margin: 10px 0;
+    font-size: 20px;
 }
